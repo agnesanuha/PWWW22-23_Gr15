@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+  }
+
+.flex{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.flexCenter {
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.liststyleNone {
+    list-style: none
+}
+
+.flexgap10{
+    gap: 10px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/pexels-anni-roenkae-2457317\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.banner > div{
+    border: 4px solid rgba(255, 255, 255, 0.4);
+    padding: 25px;
+}
+
+.banner > div h4{
+    color: #fff;
+}
+
+.banner h1{
+color: #fff;
+font-weight: 900;
+font-style: italic;
+font-family: "Roboto";
+font-size: 70px;
+margin-bottom: 20px;
+}
+
+.upperHeader{
+    padding: 15px 0;
+}
+
+.upperHeader .actions a{
+border-left: 1px solid #dcdcdc;
+padding: 0 15px;
+font-size: 13px;
+color: #1f1f1f;
+font-weight: 300;
+text-decoration: none;
+}
+
+.upperHeader i {
+    color: #1f1f1f;
+    font-size: 0.8rem;
+}
+
+.upperHeader i:hover {
+    color: #139c9e;
+}
+
+.upperHeader span {
+    font-size: 13px;
+color: #1f1f1f;
+font-weight: 300;
+}
+
+.upperHeader a:hover{
+    color: #139c9e;
+}
+
+.bottomHeader {
+    padding: 10px 0;
+}
+
+hr {
+    height: 1px;
+    background: #dcdc;
+    border: none;
+}
+
+.primaryButton {
+    background: #f4b01d;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border:none;
+    outline: none;
+    font-weight: bold;
+}
+
+.banner input,select {
+    width: 200px;
+    font-size: 13px;
+    color: #818181;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding: 10px 15px ;
+    border: none;
+    outline: none;
+}
+
+.banner h4 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-bottom: 15px;
+}
+
+
+nav ul li a{
+    font-size: 12px;
+    color: #3c3c3c;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #139c9e;
+}
