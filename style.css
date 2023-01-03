@@ -21,6 +21,10 @@
     margin: auto;
 }
 
+.sliderContainer{
+    position: relative;
+}
+
 .liststyleNone {
     list-style: none
 }
@@ -28,6 +32,10 @@
 .flexgap10{
     gap: 10px;
 }
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
 
 .banner{
     display: flex;
