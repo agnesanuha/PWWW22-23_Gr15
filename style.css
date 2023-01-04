@@ -441,3 +441,54 @@ text-align: center;
     border: none;
     outline: none;
 }
+
+footer {
+    background: #393939;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+footer >div{
+    display: flex;
+
+}
+
+footer>div i{
+    color: #fff;
+    padding: 5px;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+footer h1{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+footer p{
+    color: #fff;
+    width: 36%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-bottom: 36px;
+    margin-top: 10px;
+}
+
+footer .inputContainer input {
+border: 1px solid #fff;
+color: #fff;
+padding:5px 10px;
+background: #393939;
+outline: none;
+width: 300px;
+}
+
+footer .inputContainer button{
+border-radius: 0;
+}
