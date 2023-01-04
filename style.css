@@ -125,6 +125,10 @@ hr {
     font-weight: bold;
 }
 
+.active{
+    color: #f4b01d;
+}
+
 .banner input,
 select {
     width: 200px;
@@ -423,6 +427,7 @@ nav ul li a:hover {
     justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 10px;
+    align-items: center;
 }
 
 .classifiedsHeader h4{
@@ -453,7 +458,6 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 100px;
 }
 
 footer >div{
@@ -525,19 +529,42 @@ margin: 50px 0;
     cursor: pointer;
   }
 
-  .contactUs{
+  .contactUs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0 40px;
+    margin: 25px auto;
+  }
+
+  .contactUs >div{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
     gap: 5px;
     padding: 70px 0;
+    width: 40%;
   }
   .contactUs input,textarea{
     margin-bottom: 10px;
     padding: 10px 5px;
     border: 1px solid #1f1f1f9e;
     border-radius: 5px;
-    width: 50%;
+    width: 100%;
   }
   
+
+  #inputForSearch {
+    width: 200px;
+    font-size: 13px;
+    color: #818181;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border: 2px solid #f4b01d;
+  }
