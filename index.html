@@ -1,80 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,500;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-      <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,500;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <header class="">
         <div class="upperHeader flex container flexCenter">
-         <div class="icons flex flexgap10">
-            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-         </div>    
-<div class="actions flex flexgap10 flexCenter">
-            <span>Welcome, Visitor</span>
-            <a href="">Register</a>
-            <a href="">Log in</a>
-         </div>
+            <div class="icons flex flexgap10">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="actions flex flexgap10 flexCenter">
+                <span>Welcome, Visitor</span>
+                <a href="">Register</a>
+                <a href="">Log in</a>
+            </div>
         </div>
         <hr>
         <div class="bottomHeader flex container flexCenter">
-    <img src="./images/Classified.png" alt="">
-    <nav class="flex flexgap10 flexCenter">
-        <ul class="flex liststyleNone flexgap10">
-            <li><a href="">HOME</a></li>
-            <li><a href="">CATEGORIES</a></li>
-            <li><a href="">FEATURES</a></li>
-            <li><a href="">PRICING PLANS</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">CONTACT US</a></li>
-        </ul>
-        <button class="primaryButton">post an ad</button>
-    </nav>
+            <img src="./images/Classified.png" alt="">
+            <nav class="flex flexgap10 flexCenter">
+                <ul class="flex liststyleNone flexgap10">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">CATEGORIES</a></li>
+                    <li><a href="">FEATURES</a></li>
+                    <li><a href="">PRICING PLANS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+                <button class="primaryButton">post an ad</button>
+            </nav>
         </div>
     </header>
     <div class="banner">
-       <h1>Start searching here.</h1>
-       <div>
-        <h4>One solutions to all your problems.</h4>
-        <div class="flex flexgap10" >
-            <input placeholder="Enter Key word..." type="text">
-            <select aria-placeholder="" name="" id="">
-                <option value="" selected>Location</option>
-            </select>
-            <select aria-placeholder="" name="" id="">
-                <option value="" selected>Category</option>
-            </select>
-            <button class="primaryButton">Search</button>
+        <h1>Start searching here.</h1>
+        <div>
+            <h4>One solutions to all your problems.</h4>
+            <div class="flex flexgap10">
+                <input placeholder="Enter Key word..." type="text">
+                <select aria-placeholder="" name="" id="">
+                    <option value="" selected>Location</option>
+                </select>
+                <select aria-placeholder="" name="" id="">
+                    <option value="" selected>Category</option>
+                </select>
+                <button class="primaryButton">Search</button>
+            </div>
         </div>
-       </div>
     </div>
     <div class="sliderContainer container">
         <div class="single-item">
-            <div>your content</div>
-            <div>your content</div>
-            <div>your content</div>
-          </div>
+            <div>
+                <img src="./images/Layer 281.png" alt="">
+                <h3>Clothing and fashion</h3>
+                <p>Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit </p>
+            </div>
+            <div>
+                <img src="./images/Layer 283.png" alt="">
+                <h3>Clothing and fashion</h3>
+                <p>Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit </p>
+            </div>
+            <div>
+                <img src="./images/Layer 284.png" alt="">
+                <h3>Clothing and fashion</h3>
+                <p>Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit </p>
+            </div>
+
+            <div>
+                <img src="./images/Layer 284.png" alt="">
+                <h3>Clothing and fashion</h3>
+                <p>Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit </p>
+            </div>
+
+            <div>
+                <img src="./images/Layer 284.png" alt="">
+                <h3>Clothing and fashion</h3>
+                <p>Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit </p>
+            </div>
+        </div>
     </div>
 
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>      <script type="text/javascript" src="slick/slick.min.js"></script>
-      <script>
-        $(document).ready(function(){
-            $('.single-item').slick(); 
+    <div class="categories container">
+        <h3>Browse Categories</h3>
+        <div class="items">
+            <div class="item">
+                <div>
+                    <div class="blur"></div>
+                    Electronics
+                </div>
+                <h4>Computer & Laptops<span>(3)</span></h4>
+                <h4>Home Appliances<span>(2)</span></h4>
+                <h4>Mobile & Tablets<span>(1)</span></h4>
+                <h4>TV & LCD<span>(0)</span></h4>
+            </div>
+            <div class="item">
+                <div>
+                    <div class="blur"></div>
+                    Real Estate
+                </div>
+                <h4>Computer & Laptops<span>(3)</span></h4>
+                <h4>Home Appliances<span>(2)</span></h4>
+                <h4>Mobile & Tablets<span>(1)</span></h4>
+                <h4>TV & LCD<span>(0)</span></h4>
+            </div>
+            <div class="item">
+                <div>
+                    <div class="blur"></div>
+                    Vehicles
+                </div>
+                <h4>Computer & Laptops<span>(3)</span></h4>
+                <h4>Home Appliances<span>(2)</span></h4>
+                <h4>Mobile & Tablets<span>(1)</span></h4>
+                <h4>TV & LCD<span>(0)</span></h4>
+            </div>
+            <div class="item">
+                <div>
+                    <div class="blur"></div>
+                    Jobs
+                </div>
+                <h4>Computer & Laptops<span>(3)</span></h4>
+                <h4>Home Appliances<span>(2)</span></h4>
+                <h4>Mobile & Tablets<span>(1)</span></h4>
+                <h4>TV & LCD<span>(0)</span></h4>
+            </div>
+            <div class="item">
+                <div>
+                    <div class="blur"></div>
+                    Fashion
+                </div>
+                <h4>Computer & Laptops<span>(3)</span></h4>
+                <h4>Home Appliances<span>(2)</span></h4>
+                <h4>Mobile & Tablets<span>(1)</span></h4>
+                <h4>TV & LCD<span>(0)</span></h4>
+            </div>
+            <div class="item">
+                <div>
+                    <div class="blur"></div>
+                    Restaurants
+                </div>
+                <h4>Computer & Laptops<span>(3)</span></h4>
+                <h4>Home Appliances<span>(2)</span></h4>
+                <h4>Mobile & Tablets<span>(1)</span></h4>
+                <h4>TV & LCD<span>(0)</span></h4>
+            </div>
+            <div class="item">
+                <div>
+                    <div class="blur"></div>
+                    Hotel & Travels
+                </div>
+                <h4>Computer & Laptops<span>(3)</span></h4>
+                <h4>Home Appliances<span>(2)</span></h4>
+                <h4>Mobile & Tablets<span>(1)</span></h4>
+                <h4>TV & LCD<span>(0)</span></h4>
+            </div>
+            <div class="item">
+                <div>
+                    <div class="blur"></div>
+                    Matrimonials
+                </div>
+                <h4>Computer & Laptops<span>(3)</span></h4>
+                <h4>Home Appliances<span>(2)</span></h4>
+                <h4>Mobile & Tablets<span>(1)</span></h4>
+                <h4>TV & LCD<span>(0)</span></h4>
+            </div>
+        </div>
+  
+        
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.single-item').slick(
+                {
+                    dots: true,
+                    infinite: false,
+                    speed: 300,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                }
+            );
         });
-      </script>
+    </script>
 </body>
+
 </html>
