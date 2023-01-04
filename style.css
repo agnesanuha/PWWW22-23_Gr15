@@ -590,3 +590,29 @@ margin: 50px 0;
   .classifieds .items button:hover,.classifieds .items a:hover {
     color: #139c9e;
 }
+
+.fa-star{
+    color: rgb(180, 180, 35);
+}
+
+.blogs {
+    margin: 70px auto;
+}
+
+.blogs .items {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 15px;
+}
+
+.blogs .items >div {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs .items  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
