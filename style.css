@@ -10,6 +10,7 @@
 body {
     background-color: #f7f7f7;
 }
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -209,7 +210,7 @@ nav ul li a:hover {
     gap: 20px;
 }
 
-.categories > h3 {
+.categories>h3 {
     color: #191919;
     font-weight: 700;
     font-family: "Open Sans";
@@ -233,7 +234,7 @@ nav ul li a:hover {
     margin: 0 30px;
 }
 
-.categories .items .item h4 span{
+.categories .items .item h4 span {
     font-size: 14px;
     line-height: 38px;
     color: #515151;
@@ -241,7 +242,7 @@ nav ul li a:hover {
     font-family: "Roboto";
 }
 
-.categories .items .item>div{
+.categories .items .item>div {
     height: 120px;
     background-position: center;
     background-size: cover;
@@ -267,75 +268,75 @@ nav ul li a:hover {
 
 }
 
-.categories .items>div:nth-child(8) >div {
+.categories .items>div:nth-child(8)>div {
     background-image: url('./images/Layer\ 3190.png');
 }
 
-.categories .items>div:nth-child(7) >div{
+.categories .items>div:nth-child(7)>div {
     background-image: url('./images/Layer\ 318\ \(1\).png');
 }
 
 
-.categories .items>div:nth-child(6) >div{
+.categories .items>div:nth-child(6)>div {
     background-image: url('./images/Layer\ 3170.png');
 }
 
-.categories .items>div:nth-child(5) >div{
+.categories .items>div:nth-child(5)>div {
     background-image: url('./images/Layer\ 3160.png');
 }
 
-.categories .items>div:nth-child(4) >div{
+.categories .items>div:nth-child(4)>div {
     background-image: url('./images/Layer\ 315.png');
 }
 
-.categories .items>div:nth-child(3) >div{
+.categories .items>div:nth-child(3)>div {
     background-image: url('./images/Layer\ 320.png');
 }
 
-.categories .items>div:nth-child(2) >div{
+.categories .items>div:nth-child(2)>div {
     background-image: url('./images/Layer\ 314.png');
 }
 
-.categories .items>div:nth-child(1) >div{
+.categories .items>div:nth-child(1)>div {
     background-image: url('./images/Layer\ 291.png');
 }
 
 .urgent .items {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
-.urgent >h3{
+.urgent>h3 {
     font-size: 24px;
-line-height: 56px;
-color: #000000;
-font-weight: 700;
-font-family: "Open Sans";
-margin-bottom: 10px;
-margin-top: 20px;
+    line-height: 56px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
-.urgent .items > div {
-background: #fff;
-padding-bottom: 30px;
+.urgent .items>div {
+    background: #fff;
+    padding-bottom: 30px;
 }
 
-.urgent .items > div h4{
+.urgent .items>div h4 {
     font-size: 18px;
-line-height: 55px;
-color: #171717;
-font-weight: 700;
-font-family: "Roboto";
-display: flex;
-justify-content: space-between;
-border-top: 4px solid #f4b01d;
-background: #aaaaaa3f;
-padding: 0 35px;
-margin-bottom: 30px;
+    line-height: 55px;
+    color: #171717;
+    font-weight: 700;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid #f4b01d;
+    background: #aaaaaa3f;
+    padding: 0 35px;
+    margin-bottom: 30px;
 }
 
-.urgent .items > div h5 {
+.urgent .items>div h5 {
     font-size: 14px;
     line-height: 38px;
     color: #000000;
@@ -347,10 +348,96 @@ margin-bottom: 30px;
     margin: 0 30px;
 }
 
-.urgent .items > div h5 span{
+.urgent .items>div h5 span {
     font-size: 14px;
     line-height: 38px;
     color: #515151;
     font-weight: 400;
     font-family: "Roboto";
+}
+
+.classifieds .items>div {
+    display: flex;
+    padding: 20px;
+    background: #fff;
+    border-bottom: 1px solid #81818136;
+}
+
+.classifieds .items>div img {
+    width: 160px;
+    height: 90px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.classifieds .items>div .details {
+    margin-left: auto;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.classifieds .items>div .details >span  {
+    font-size: 24px;
+    line-height: 12px;
+    color: #191919;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: right;
+}
+
+.classifieds .items>div .description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+
+.classifieds .items>div .description span {
+    font-size: 12px;
+    line-height: 18px;
+    color: #515151;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.classifieds .items>div .description h5 {
+    font-size: 20px;
+    line-height: 12px;
+    color: #191919;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: right;
+}
+
+.classifiedsHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.classifiedsHeader h4{
+    font-size: 24px;
+line-height: 56px;
+color: #000000;
+font-weight: 700;
+font-family: "Open Sans";
+text-align: center;
+}
+
+.classifiedsHeader >div{
+    display: flex;
+}
+
+.classifiedsHeader >div button{
+    width: 198px;
+    height: 55px;
+    background-color: #f4b01d;
+    border: none;
+    outline: none;
 }
