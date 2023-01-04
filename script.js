@@ -1,4 +1,4 @@
-function myFunction() {
+function search() {
     var input, filter, itemsForSearch, a, i, txtValue;
     input = document.getElementById("inputForSearch");
     filter = input.value.toUpperCase();
@@ -13,4 +13,12 @@ function myFunction() {
             itemForSearch[i].style.display = "none";
         }
     }
+}
+
+
+function viewMoreDetails(item) {
+    let moreDetails;
+    moreDetails = document.getElementById(`item${item}`);
+    console.log(moreDetails,"moreDetails");
+    moreDetails.style.display = 'flex';
 }

@@ -130,7 +130,7 @@ hr {
 }
 
 .banner input,
-select {
+.banner select {
     width: 200px;
     font-size: 13px;
     color: #818181;
@@ -548,7 +548,7 @@ margin: 50px 0;
     padding: 70px 0;
     width: 40%;
   }
-  .contactUs input,textarea{
+  .contactUs input,.contactUs  textarea{
     margin-bottom: 10px;
     padding: 10px 5px;
     border: 1px solid #1f1f1f9e;
@@ -568,3 +568,25 @@ margin: 50px 0;
     outline: none;
     border: 2px solid #f4b01d;
   }
+
+  .classifieds .items .moreDetails{
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .classifieds .items  button,.classifieds .items a {
+    color: #1f1f1f;
+    text-decoration: underline;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 0.8rem;
+  }
+
+  .classifieds .items button:hover,.classifieds .items a:hover {
+    color: #139c9e;
+}
