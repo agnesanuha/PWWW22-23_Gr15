@@ -469,6 +469,14 @@
                 }
             );
         });
+
+        $(document).ready(function() {
+    let moreDetails = localStorage.getItem("moreDetails");
+    if(moreDetails) {
+        viewMoreDetails(moreDetails);
+    }
+});
+        
     </script>
 </body>
 

@@ -18,7 +18,29 @@ function search() {
 
 function viewMoreDetails(item) {
     let moreDetails;
-    moreDetails = document.getElementById(`item${item}`);
-    console.log(moreDetails,"moreDetails");
-    moreDetails.style.display = 'flex';
+    let i =1;
+
+    console.log(item,"item")
+
+    for(i;i<=6;i++) {
+        if(i != parseInt(item)) {
+            console.log("sffd");
+            moreDetails = document.getElementById(`item${i}`);
+            moreDetails.style.display = 'none';
+        } else {
+            console.log("asdasd");
+            moreDetails = document.getElementById(`item${i}`);
+            console.log(moreDetails,"moreDetails")
+            moreDetails.style.display = 'flex';
+        }
+    }
+
+    localStorage.setItem('moreDetails',item);
+}
+
+window.onload = function () { 
+    let moreDetails = localStorage.getItem("moreDetails");
+    if(moreDetails) {
+        viewMoreDetails(moreDetails);
+    }
 }

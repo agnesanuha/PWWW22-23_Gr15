@@ -644,3 +644,8 @@ margin: 50px 0;
     color: #1f1f1f;
     padding: 5px 20px;
 }
+
+address{
+    padding: 20px 40px;
+    background: #fff;
+}
