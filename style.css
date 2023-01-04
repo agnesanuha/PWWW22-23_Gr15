@@ -389,6 +389,10 @@ nav ul li a:hover {
     text-align: right;
 }
 
+.classifieds{
+    margin-bottom: 70px;
+}
+
 .classifieds .items>div .description {
     display: flex;
     flex-direction: column;
@@ -492,3 +496,48 @@ width: 300px;
 footer .inputContainer button{
 border-radius: 0;
 }
+
+.pricingPlans >div {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+height: 300px;
+padding: 30px;
+margin: 50px 0;
+}
+
+.pricingPlans >div >div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+}
+
+.pricingPlans >div >div h4 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .pricingPlans >div >div button {
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  .contactUs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 5px;
+    padding: 70px 0;
+  }
+  .contactUs input,textarea{
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    border: 1px solid #1f1f1f9e;
+    border-radius: 5px;
+    width: 50%;
+  }
+  
