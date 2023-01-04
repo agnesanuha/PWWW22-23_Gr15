@@ -299,3 +299,58 @@ nav ul li a:hover {
 .categories .items>div:nth-child(1) >div{
     background-image: url('./images/Layer\ 291.png');
 }
+
+.urgent .items {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.urgent >h3{
+    font-size: 24px;
+line-height: 56px;
+color: #000000;
+font-weight: 700;
+font-family: "Open Sans";
+margin-bottom: 10px;
+margin-top: 20px;
+}
+
+.urgent .items > div {
+background: #fff;
+padding-bottom: 30px;
+}
+
+.urgent .items > div h4{
+    font-size: 18px;
+line-height: 55px;
+color: #171717;
+font-weight: 700;
+font-family: "Roboto";
+display: flex;
+justify-content: space-between;
+border-top: 4px solid #f4b01d;
+background: #aaaaaa3f;
+padding: 0 35px;
+margin-bottom: 30px;
+}
+
+.urgent .items > div h5 {
+    font-size: 14px;
+    line-height: 38px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e7e7;
+    margin: 0 30px;
+}
+
+.urgent .items > div h5 span{
+    font-size: 14px;
+    line-height: 38px;
+    color: #515151;
+    font-weight: 400;
+    font-family: "Roboto";
+}
